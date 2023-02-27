@@ -24,7 +24,7 @@ public class MediaDeNotas {
     System.out.print("Aluno está Aprovado \n");
 
 } else if (media >= 5 && media <= 7){
-    System.out.print("Aprovado, mas terá que fazer recupeção \n")
+    System.out.print("Aprovado, mas terá que fazer recupeção \n");
 } else if (media >= 0 && media <= 4) {
     System.out.print("Aluno está Reprovado\n");
 } else{
