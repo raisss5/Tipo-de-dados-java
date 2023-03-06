@@ -4,21 +4,27 @@ import java.util.Scanner;
 public class Salario {
     public static void main(String[] args){
     Scanner input = new Scanner(System.in);
-    double salarioAtual, salarioNovo ;
+    double SalarioAtual, SalarioNovo ;
 
-        System.out.println("Informe seu salário atual: ");
-        salarioAtual = input.nextDouble();
+        System.out.println("Informe seu salário atual: " );
+        SalarioAtual = input.nextDouble();
 
 
-        if (salarioAtual >= 1000 && salarioAtual <= 2000){
-            salarioNovo = salarioAtual * 1.15;
+        if (SalarioAtual >= 1000 && SalarioAtual <= 2000){
+            SalarioNovo = SalarioAtual * 1.15;
+            System.out.println("seu salário Novo é: " + SalarioAtual);
+            
 
         }
-        else if (salarioAtual >= 2000 && salarioAtual <= 3000){
-            salarioNovo = salarioAtual * 1.10;
-
-        }else if (salarioAtual >= 3000){
-            salarioNovo = salarioAtual * 1.05;
+        else if (SalarioAtual >= 2000 && SalarioAtual <= 3000){
+            SalarioNovo = SalarioAtual * 1.10;
+            System.out.println("seu salário Novo é: " + SalarioAtual);
+      
+        }
+        else if (SalarioAtual >= 3000){
+            SalarioNovo = SalarioAtual * 1.05;
+            System.out.println("seu salário Novo é: " + SalarioAtual);
+            
         }
     }
 }
