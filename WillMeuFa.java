@@ -20,11 +20,12 @@ public class WillMeuFa {
             System.out.printf("Voce é uma criança ! \n" );
          }
 
-         else if(idade >=13 && idade <= 17)
+         else if(idade >=13 && idade <= 17){
             System.out.printf("Voce é um adolescente! \n" );
          }
 
          else if(idade >=18 && idade <= 59){
+            
             System.out.printf("Voce é adulto!  \n" );
          }
 
@@ -33,6 +34,8 @@ public class WillMeuFa {
          }
 
 
+
+        }
 
         }
       
