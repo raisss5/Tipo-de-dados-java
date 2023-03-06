@@ -12,7 +12,6 @@ public class WillMeuFa {
         System.out.println("Insire seu nome: ");
         nome = input.next();
         
-        
         System.out.println("Insire sua idade : ");
         idade = input.nextInt();
 
